@@ -4463,7 +4463,7 @@ h6 {
 @media only screen and (max-width: 399px) {
 
 	.big-head {
-		font-size: 98px;
+		font-size: 57px;
 	}
 
 }
@@ -4573,7 +4573,7 @@ h6 {
 	}
 
 	.headline-xl {
-		font-size: 64.75px;
+		font-size: 60px;
 	}
 
 	.headline-l {
@@ -4617,7 +4617,7 @@ h6 {
 	}
 
 	.headline-xl {
-		font-size: 59.5px;
+		font-size: 54px;
 	}
 
 	.headline-l {
@@ -4661,7 +4661,7 @@ h6 {
 	}
 
 	.headline-xl {
-		font-size: 54.25px;
+		font-size: 40px;
 	}
 
 	.headline-l {
@@ -4705,7 +4705,8 @@ h6 {
 	}
 
 	.headline-xl {
-		font-size: 49px;
+		font-size: 42px;
+		letter-spacing: .02rem;
 	}
 
 	.headline-l {
@@ -4749,7 +4750,8 @@ h6 {
 	}
 
 	.headline-xl {
-		font-size: 43.75px;
+		font-size: 38px;
+		letter-spacing: .02rem;
 	}
 
 	.headline-l {
