@@ -615,6 +615,57 @@ pre code {
 	padding: 20px;
 }
 
+@media only screen and (max-width: 399px) {
+	.padding-top-150 {
+		padding-top: 90px;
+	}
+
+	.padding-bottom-150 {
+		padding-bottom: 90px;
+	}
+
+	.padding-top-bottom-120 {
+		padding-top:    80px;
+		padding-bottom: 80px;
+	}
+
+	.padding-top-120 {
+		padding-top: 80px;
+	}
+
+	.padding-bottom-120 {
+		padding-bottom: 80px;
+	}
+
+	.padding-top-bottom-100 {
+		padding-top:    70px;
+		padding-bottom: 70px;
+	}
+
+	.padding-top-100 {
+		padding-top: 70px;
+	}
+
+	.padding-bottom-100 {
+		padding-bottom: 70px;
+	}
+
+	.padding-top-60 {
+		padding-top: 30px;
+	}
+	.padding-bottom-60 {
+		padding-top: 30px;
+	}
+
+	.padding-top-20 {
+		padding-top: 15px;
+	}
+	.padding-bottom-20 {
+		padding-top: 15px;
+	}
+
+}
+
 /* Margins */
 .margin-bottom-120 {
 	margin-bottom: 120px;
