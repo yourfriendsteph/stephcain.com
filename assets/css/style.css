@@ -625,8 +625,8 @@ pre code {
 	}
 
 	.padding-top-bottom-120 {
-		padding-top:    80px;
-		padding-bottom: 80px;
+		padding-top:    50px;
+		padding-bottom: 50px;
 	}
 
 	.padding-top-120 {
@@ -4772,7 +4772,10 @@ h6 {
 
 	.headline-xl {
 		font-size: 42px;
-		letter-spacing: .02rem;
+		letter-spacing: .01rem;
+		line-height: 1.2;
+		padding-top:20px;
+		padding-bottom:10px;
 	}
 
 	.headline-l {
