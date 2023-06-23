@@ -1347,6 +1347,14 @@ pre code {
 	min-height: 100vh;
 }
 
+.flex-min-height-70vh {
+	display: flex;
+	align-items: center;
+	width:  100%;
+	height: 100%;
+	min-height: 70vh;
+}
+
 
 
 
@@ -1902,7 +1910,7 @@ body.js-page-in-anim-active.js-page-out .pointer {
 
 .header-logo__img {
 	width: auto;
-	height: 40px;
+	height: 50px;
 	vertical-align: top;
 	-webkit-transform: translateY(110%);
 	        transform: translateY(110%);
@@ -4479,7 +4487,7 @@ h6 {
 
 .big-head {
 	font-family: 'Lato', sans-serif;
-	font-size: 200px;
+	font-size: 175px;
 	font-weight: 900;
 	line-height: 1;
 	letter-spacing: 3px;
@@ -4489,7 +4497,7 @@ h6 {
 @media only screen and (max-width: 1399px) {
 
 	.big-head {
-		font-size: 208px;
+		font-size: 180px;
 	}
 
 }
@@ -4497,7 +4505,7 @@ h6 {
 @media only screen and (max-width: 1199px) {
 
 	.big-head {
-		font-size: 186px;
+		font-size: 175px;
 	}
 
 }
@@ -4505,7 +4513,7 @@ h6 {
 @media only screen and (max-width: 999px) {
 
 	.big-head {
-		font-size: 164px;
+		font-size: 154px;
 	}
 
 }
@@ -4513,7 +4521,7 @@ h6 {
 @media only screen and (max-width: 767px) {
 
 	.big-head {
-		font-size: 142px;
+		font-size: 132px;
 	}
 
 }
@@ -4521,7 +4529,7 @@ h6 {
 @media only screen and (max-width: 549px) {
 
 	.big-head {
-		font-size: 120px;
+		font-size: 110px;
 	}
 
 }
@@ -4529,7 +4537,7 @@ h6 {
 @media only screen and (max-width: 399px) {
 
 	.big-head {
-		font-size: 57px;
+		font-size: 55px;
 	}
 
 }
@@ -5622,12 +5630,12 @@ body .content-bg-dark .anim-img-reveal:before {
 
 .swiper-slide .anim-stroke-fill-white:before,
 .swiper-slide .anim-stroke-fill-black:before {
-	transition-delay: .7s;
+	transition-delay: .6s;
 }
 
 .swiper-slide.swiper-slide-active .anim-stroke-fill-white:before,
 .swiper-slide.swiper-slide-active .anim-stroke-fill-black:before {
-	transition-delay: 1s;
+	transition-delay: .6iframe-parents;
 }
 
 
@@ -6697,9 +6705,34 @@ textarea.form-input {
 	-webkit-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
 }
+/* ==========================================================================
+   29A. Video Ratio
+   ========================================================================== */
 
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
 
+}
 
+.social-video
+{
+  aspect-ratio: 1 / 1;
+  width: 100%;
+
+}
+
+.iframe-parent {
+     position: relative;
+     &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+ }
 
 
 /* ==========================================================================
